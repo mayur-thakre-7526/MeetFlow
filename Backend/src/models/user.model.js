@@ -19,7 +19,7 @@ const userSchema = new Schema({
   },
 });
 
-const userModel = moongose.model("User", userSchema);
+const userModel = mongoose.model("User", userSchema);
 
 export { userModel };
 // without default means we can export many things but with default means we only export one thing

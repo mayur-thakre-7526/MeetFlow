@@ -1,6 +1,7 @@
 import { userModel } from "../models/user.model.js";
 import httpStatus from "http-status";
 import bcrypt from "bcrypt";
+import crypto from "crypto";
 
 const login = async (req, res) => {
   const { username, password } = req.body;
@@ -62,3 +63,5 @@ const register = async (req, res) => {
     });
   }
 };
+
+export { login, register };
