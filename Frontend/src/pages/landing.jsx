@@ -27,7 +27,7 @@ export default function landingPage() {
           <p>Cover a distence by MeetFlow</p>
 
           <div role="button">
-            <Link to={"/home"}>Get Started</Link>
+            <Link to={"/auth"}>Get Started</Link>
           </div>
         </div>
         <div>
